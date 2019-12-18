@@ -32,8 +32,8 @@ namespace EF6ComplexData
                .WithMany(c => c.Instructors)
                .Map(cs =>
                {
-                   cs.MapLeftKey("InstructorID");
-                   cs.MapRightKey("CourseID");
+                   cs.MapLeftKey("InstructorId");
+                   cs.MapRightKey("CourseId");
                    cs.ToTable("Teaching");
                });
 

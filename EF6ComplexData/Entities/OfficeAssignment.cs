@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace EF6ComplexData.Classes
+namespace EF6ComplexData.Entities
 {
     public class OfficeAssignment
     {
         [Key]
         [ForeignKey("Instructor")]
-        public int InstructorID { get; set; }
+        public int InstructorId { get; set; }
 
         public string Location { get; set; }
 
