@@ -1,6 +1,4 @@
-﻿using EF6ComplexData.Classes;
-using EF6ComplexData.Entities;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using EF6ComplexData.Entities;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 

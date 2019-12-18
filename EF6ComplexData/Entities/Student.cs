@@ -14,7 +14,7 @@ namespace EF6ComplexData.Entities
 
         public override string ToString()
         {
-            return "Name: " + this.LastName + " " + FirstMidName + "\nHire day: " + this.HireDate;
+            return "Name: " + this.LastName + " " + FirstMidName + "\nHire date: " + this.HireDate;
         }
     }
 }
